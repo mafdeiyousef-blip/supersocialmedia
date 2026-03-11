@@ -1,8 +1,28 @@
+تمام 👍 سأعطيك **كود موقع كامل حديث (Modern)** لصفحة **Super Social Media**.
+كل ما عليك فعله هو **استبدال الكود الموجود في `index.html` بهذا الكود** ثم عمل **Commit**.
+
+الكود فيه:
+
+* واجهة حديثة
+* قسم خدمات
+* قسم أعمال (تصميمات)
+* زر فيسبوك
+* زر واتساب
+* قسم تواصل
+
+---
+
+## الكود الجديد للموقع
+
+انسخي كل هذا وضعيه داخل **index.html** 👇
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Super Social Media</title>
 
 <style>
@@ -17,6 +37,7 @@ color:white;
 header{
 display:flex;
 justify-content:space-between;
+align-items:center;
 padding:20px 60px;
 background:#020617;
 }
@@ -35,7 +56,7 @@ text-decoration:none;
 
 .hero{
 text-align:center;
-padding:120px 20px;
+padding:100px 20px;
 }
 
 .hero h1{
@@ -43,88 +64,201 @@ font-size:48px;
 }
 
 .hero p{
-color:#94a3b8;
+color:#cbd5f5;
+margin-top:10px;
 }
 
-.button{
+.btn{
 background:#a855f7;
-padding:12px 24px;
-border-radius:8px;
-text-decoration:none;
+padding:12px 25px;
+border-radius:6px;
 color:white;
+text-decoration:none;
 display:inline-block;
 margin-top:20px;
+}
+
+.section{
+padding:80px 60px;
+text-align:center;
 }
 
 .services{
 display:flex;
 justify-content:center;
 gap:30px;
-padding:80px 20px;
+flex-wrap:wrap;
+margin-top:40px;
 }
 
 .card{
 background:#1e293b;
 padding:30px;
-border-radius:12px;
+border-radius:10px;
 width:250px;
-text-align:center;
+}
+
+.portfolio{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.portfolio img{
+width:250px;
+border-radius:10px;
+}
+
+.contact a{
+display:inline-block;
+margin:10px;
+padding:12px 20px;
+background:#a855f7;
+color:white;
+text-decoration:none;
+border-radius:6px;
 }
 
 footer{
 text-align:center;
 padding:30px;
 background:#020617;
-margin-top:40px;
+margin-top:50px;
 }
 
 </style>
-
 </head>
 
 <body>
 
 <header>
+
 <div class="logo">Super Social Media</div>
 
 <nav>
 <a href="#">Home</a>
-<a href="#">Services</a>
-<a href="#">Contact</a>
+<a href="#services">Services</a>
+<a href="#work">Our Work</a>
+<a href="#contact">Contact</a>
 </nav>
+
 </header>
 
-<section class="hero">
-<h1>Grow Your Business With Social Media</h1>
-<p>We turn your social media into your TOP sales channel</p>
 
-<a class="button" href="https://www.facebook.com/profile.php?id=61562650757804">
-Visit Our Facebook
+<section class="hero">
+
+<h1>Grow Your Business With Social Media</h1>
+
+<p>We turn social media into your TOP sales channel</p>
+
+<a class="btn" href="https://www.facebook.com/profile.php?id=61562650757804">
+Visit Facebook Page
 </a>
+
 </section>
 
-<section class="services">
+
+<section class="section" id="services">
+
+<h2>Our Services</h2>
+
+<div class="services">
 
 <div class="card">
-<h3>Account Management</h3>
-<p>Complete social media management for your brand.</p>
+<h3>Social Media Management</h3>
+<p>We manage your pages and grow your audience.</p>
 </div>
 
 <div class="card">
 <h3>Ad Campaigns</h3>
-<p>High converting Facebook and Instagram ads.</p>
+<p>High converting ads to increase your sales.</p>
 </div>
 
 <div class="card">
 <h3>Content Creation</h3>
-<p>Creative posts that attract customers.</p>
+<p>Creative designs and engaging posts.</p>
+</div>
+
 </div>
 
 </section>
 
+
+<section class="section" id="work">
+
+<h2>Our Designs</h2>
+
+<div class="portfolio">
+
+<img src="design1.jpg">
+<img src="design2.jpg">
+<img src="design3.jpg">
+
+</div>
+
+</section>
+
+
+<section class="section contact" id="contact">
+
+<h2>Contact Us</h2>
+
+<a href="https://wa.me/201000000000">WhatsApp</a>
+
+<a href="https://www.facebook.com/profile.php?id=61562650757804">
+Facebook
+</a>
+
+</section>
+
+
 <footer>
+
 <p>© 2026 Super Social Media</p>
+
 </footer>
+
 
 </body>
 </html>
+```
+
+---
+
+## الخطوة التالية (مهم)
+
+بعد وضع الكود:
+
+1️⃣ اضغطي **Commit changes**
+2️⃣ ارفعي صور التصميمات:
+
+```
+design1.jpg
+design2.jpg
+design3.jpg
+```
+
+من **Add file → Upload files**
+
+---
+
+## بعدها الموقع سيصبح شكله مثل مواقع الشركات ✨
+
+* واجهة حديثة
+* خدمات
+* معرض أعمال
+* أزرار تواصل
+
+---
+
+💡 وإذا أردت، يمكنني أيضًا أن أجعل الموقع **احترافي جدًا مثل مواقع وكالات الماركتنج العالمية** وفيه:
+
+* animations
+* portfolio متحرك
+* نموذج طلب خدمة
+* SEO
+* سرعة عالية
+
+وسيكون **أفضل 10 مرات من هذا التصميم**. 🚀
